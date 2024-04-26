@@ -1,0 +1,99 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main content styles */
+main {
+    padding: 40px 0;
+}
+
+section {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.course {
+    margin-bottom: 40px;
+}
+
+.course h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.course p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.team-member {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.team-member img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 16px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
